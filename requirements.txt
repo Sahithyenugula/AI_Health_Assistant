@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+langchain
+langgraph
+boto3
+transformers
+torch
+scikit-learn
+ython-multipart
