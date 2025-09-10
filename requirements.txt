@@ -6,4 +6,5 @@ boto3
 transformers
 torch
 scikit-learn
-ython-multipart
+python-multipart
+pydantic
