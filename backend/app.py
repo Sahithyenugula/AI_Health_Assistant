@@ -11,7 +11,7 @@ async def root():
 
 class EntitiesResponse(BaseModel):
     entities: List[dict]
-
+# Endpoint to extract
 @app.post("/extract_entities", response_model=EntitiesResponse)
 async def extract_text_entities(text: str = Form(...)):
     entities = extract_named_entities(text)
